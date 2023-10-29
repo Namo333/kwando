@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind components;
 @tailwind utilities;
 
@@ -8,8 +10,8 @@
 }
 
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Geologica', sans-serif;
+  /* line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -179,4 +181,12 @@ template {
 }
 [hidden] {
   display: none;
+}
+
+.nav__text{
+    @apply text-[#4B5162] text-center text-base not-italic font-medium leading-[122%];
+}
+
+.nav__upText{
+    @apply text-[#79829F] text-center text-sm not-italic font-medium leading-[126%];
 }
