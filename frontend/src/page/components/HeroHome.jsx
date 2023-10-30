@@ -4,9 +4,9 @@ import Screen from '../../assets/img/Screen.svg';
 
 const HeroHome = () => (
     <section className='pt-[100px] pb-[170px]'>
-        <main className='flex justify-between 2xl:items-center'>
+        <main className='flex justify-between 2xl:items-center max-md:flex-col max-md:p-[20px]'>
             <div className="">
-                <div className="h-[25px] px-3 py-1.5 bg-white rounded-[20px] shadow border-slate-900 justify-start items-center gap-2 inline-flex">
+                <div className="px-3 py-1.5 bg-white rounded-[20px] shadow border-slate-900 justify-start items-center gap-2 inline-flex">
                     <div className="w-5 h-5 relative">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" fill="none" viewBox="0 0 20 21">
                             <path fill="#387FF5" fill-rule="evenodd" d="M15.833 2.167a3.256 3.256 0 0 0 2.5 2.5 3.256 3.256 0 0 0-2.5 2.5 3.256 3.256 0 0 0-2.5-2.5 3.256 3.256 0 0 0 2.5-2.5Zm-8.273.166a9.196 9.196 0 0 0 7.06 7.06 9.196 9.196 0 0 0-7.06 7.06A9.196 9.196 0 0 0 .5 9.393a9.196 9.196 0 0 0 7.06-7.06ZM18.333 15.5A4.342 4.342 0 0 1 15 12.167a4.342 4.342 0 0 1-3.333 3.333A4.342 4.342 0 0 1 15 18.833a4.341 4.341 0 0 1 3.333-3.333Z" clip-rule="evenodd"/>
@@ -31,7 +31,7 @@ const HeroHome = () => (
                 </div>
             </div>
 
-            <div className="">
+            <div className="max-lg:items-center max-lg:flex">
                 <img className="object-cover w-full 2xl:w-[700px]" src={ Screen } alt="" />
             </div>
         </main>

@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { Home } from '../page';
 
 const Navbar = () => (
-  <header className=''>
+  <header className='max-sm:p-[20px]'>
     <Router>
-        <div className="pt-[20px]">
+        <div className="pt-[20px] max-sm:hidden">
           <nav>
             <ul className='flex gap-[32px]'>
               <li>
@@ -35,7 +35,7 @@ const Navbar = () => (
               <path d="M107.264 8.25806C108.1 12.3956 111.142 15.6276 115.036 16.5161C111.142 17.4046 108.1 20.6367 107.264 24.7742C106.427 20.6367 103.385 17.4046 99.4908 16.5161C103.385 15.6276 106.427 12.3956 107.264 8.25806Z" fill="#387FF5"/>
             </svg> 
           </Link>
-          <nav>
+          <nav className='max-md:hidden'>
             <ul className='flex gap-[32px] items-center'>
               <li>
                 <Link className='nav__text' to="/about">Features</Link>
@@ -51,7 +51,7 @@ const Navbar = () => (
               </li>
             </ul>
           </nav>
-          <nav className='flex justify-between items-center ml-auto mr-0'>
+          <nav className='flex justify-between items-center ml-auto mr-0 max-sm:hidden'>
             <ul className='flex gap-[8px] items-center'>
               <li>
                 <Link className='flex justify-center items-center py-[12px] px-[16px] rounded-[8px] border-[2px] border-[#B6D1FB] border-solid text-[#387FF5]' to="/about">Get a demo</Link>

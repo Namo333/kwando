@@ -190,3 +190,38 @@ template {
 .nav__upText{
     @apply text-[#79829F] text-center text-sm not-italic font-medium leading-[126%];
 }
+
+.info__titleText{
+    @apply flex items-center gap-[12px] max-w-[416px] text-neutral-800 text-base font-semibold leading-relaxed;
+}
+
+.info__text{
+    @apply max-w-[452px] opacity-80 text-gray-600 text-base font-normal leading-relaxed;
+}
+
+.info__back{
+  background: linear-gradient(100deg, #809FF0 0%, #4C62C5 100%);
+  width: 200px;
+  height: 200px;
+}
+
+.reviews__block{
+    @apply px-10 py-8 rounded-[20px] flex-col justify-start items-start gap-2;
+    border-radius: 20px;
+    border: 1px solid #D2D5E2;
+    background: #FFF;
+    backdrop-filter: 40px; 
+}
+
+
+.reviews__text{
+    @apply max-w-full text-center text-neutral-800 text-xl font-normal leading-[30px];
+}
+
+.reviews__avatar{
+  @apply flex flex-col items-center justify-center;
+}
+
+.reviews__avatarTitle{
+  @apply text-center text-neutral-800 text-base font-semibold leading-relaxed p-0 m-0;
+}
