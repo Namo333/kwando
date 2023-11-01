@@ -215,11 +215,11 @@ template {
 
 
 .reviews__text{
-    @apply max-w-full text-center text-neutral-800 text-xl font-normal leading-[30px];
+    @apply max-w-full text-center text-neutral-800 text-xl font-normal leading-[30px] pt-0 mt-0;
 }
 
 .reviews__avatar{
-  @apply flex flex-col items-center justify-center;
+  @apply flex flex-col items-center justify-center gap-[5px];
 }
 
 .reviews__avatarTitle{
